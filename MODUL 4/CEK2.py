@@ -3,17 +3,14 @@ class MotorManager:
         self.motor_tersedia = self.reset_motor()
 
     def tampilkan_motor(self):
-        """Method untuk menampilkan daftar motor"""
         list_motor_dengan_nomor = [f"{i+1}. {motor}" for i, motor in enumerate(self.motor_tersedia)]
         for item in list_motor_dengan_nomor:
             print(item)
 
     def tambah_motor(self, motor_baru):
-        """Method untuk menambahkan motor baru"""
         self.motor_tersedia.append(motor_baru)
 
     def hapus_motor(self, motor_hapus):
-        """Method untuk menghapus motor"""
         if motor_hapus in self.motor_tersedia:
             self.motor_tersedia.remove(motor_hapus)
         else:
@@ -21,11 +18,9 @@ class MotorManager:
 
     @staticmethod
     def reset_motor():
-        """Method tanpa parameter untuk mereset daftar motor"""
         return ['Honda Beat', 'Yamaha NMAX', 'Suzuki Satria']
 
     def main(self):
-        """Method utama"""
         while True:
             self.tampilkan_motor()
 
