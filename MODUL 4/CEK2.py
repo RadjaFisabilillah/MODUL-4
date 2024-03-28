@@ -1,3 +1,5 @@
+print('tas tes sat set')
+
 class MotorManager:
     def __init__(self):
         self.motor_tersedia = self.reset_motor()
