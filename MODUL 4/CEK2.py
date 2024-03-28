@@ -1,4 +1,4 @@
-print('tas tes sat set')
+print('pelajaran')
 
 class MotorManager:
     def __init__(self):
