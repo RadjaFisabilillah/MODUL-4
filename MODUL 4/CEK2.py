@@ -1,5 +1,14 @@
 print('pelajaran1satu')
-print('Herdika Putra Devara')
+<<<<<<< HEAD
+print('Herdika Putra Devara (21120123140112)')
+=======
+<<<<<<< HEAD
+print('Damai Raya Fakhruddin (21120123130096)')
+=======
+print('Radja Fisabilillah (21120123130102)')
+>>>>>>> 3d48b4a1c9335dc2f891f9216f0fbb3b63670851
+
+>>>>>>> 5da36606be7efdbc3717f6dc9ce4e6dc72f88593
 class MotorManager:
     def __init__(self):
         self.motor_tersedia = self.reset_motor()
