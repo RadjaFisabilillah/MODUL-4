@@ -1,5 +1,5 @@
 print('pelajaran1satu')
-
+print('Herdika Putra Devara')
 class MotorManager:
     def __init__(self):
         self.motor_tersedia = self.reset_motor()
