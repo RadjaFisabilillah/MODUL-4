@@ -1,4 +1,4 @@
-print('pelajaran')
+print('pelajaran1satu')
 
 class MotorManager:
     def __init__(self):
