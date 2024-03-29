@@ -1,5 +1,9 @@
 print('pelajaran1satu')
+<<<<<<< HEAD
 print('Damai Raya Fakhruddin (21120123130096)')
+=======
+print('Radja Fisabilillah (21120123130102)')
+>>>>>>> 3d48b4a1c9335dc2f891f9216f0fbb3b63670851
 
 class MotorManager:
     def __init__(self):
