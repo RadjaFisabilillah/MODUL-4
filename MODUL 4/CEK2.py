@@ -1,4 +1,5 @@
 print('pelajaran1satu')
+print('Damai Raya Fakhruddin (21120123130096)')
 
 class MotorManager:
     def __init__(self):
